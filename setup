@@ -1,0 +1,13 @@
+Clone this repository and navigate to the project folder
+
+# git clone https://github.com/your-repo-url
+# cd your-repo-folder
+
+Install the required Python packages
+
+# pip install -r requirements.txt
+
+Replace the API keys in the script (OPENAI_API_KEY and GEMINI_API_KEY) with your own OpenAI and Google Gemini API keys.
+
+Ensure the dataset file (text_samples.csv) is placed in the project folder.
+
