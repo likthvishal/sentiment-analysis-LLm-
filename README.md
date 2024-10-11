@@ -4,6 +4,12 @@
 ## Overview
 This project implements a sentiment analysis pipeline utilizing OpenAI's GPT-4 (ChatGPT) and Google Gemini LLM APIs for classifying sentiments from a dataset of textual samples. The project leverages both Zero-Shot and Few-Shot learning techniques for sentiment classification, comparing the performance of different models.
 
+## Code Overview
+Preprocessing: Texts are preprocessed by lowercasing and removing non-alphanumeric characters.
+Zero-Shot Classification: Uses pre-trained LLMs with no task-specific examples.
+Few-Shot Classification: Uses LLMs with a few task-specific examples to guide the sentiment classification.
+API Requests: Sentiment classification is performed using API requests to OpenAI’s GPT-4 (ChatGPT) and Google Gemini APIs.
+
 ## Key achievements include:
 90% accuracy in sentiment classification.
 Performance improvement of 25% through data preprocessing optimizations.
@@ -29,8 +35,8 @@ label: The actual sentiment label (1 for positive, 0 for negative).
 The script performs Zero-Shot classification using both ChatGPT and Google Gemini APIs:
 python sentiment_analysis.py
 
-### Zero-Shot with ChatGPT: C
-lassifies sentiments using ChatGPT without providing any specific examples.
+### Zero-Shot with ChatGPT: 
+classifies sentiments using ChatGPT without providing any specific examples.
 ### Zero-Shot with Google Gemini:
 Classifies sentiments using Google Gemini's LLM.
 
