@@ -1,7 +1,7 @@
 
 ## Sentiment Analysis with ChatGPT and Google Gemini APIs
 
-#Overview
+# Overview
 This project implements a sentiment analysis pipeline utilizing OpenAI's GPT-4 (ChatGPT) and Google Gemini LLM APIs for classifying sentiments from a dataset of textual samples. The project leverages both Zero-Shot and Few-Shot learning techniques for sentiment classification, comparing the performance of different models.
 
 Key achievements include:
