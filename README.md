@@ -6,7 +6,7 @@ This project implements a sentiment analysis pipeline utilizing OpenAI's GPT-4 (
 
 ## Code Overview
 Preprocessing: Texts are preprocessed by lowercasing and removing non-alphanumeric characters.
-Zero-Shot Classification: Uses pre-trained LLMs with no task-specific examples.
+Zero-Shot Classification: Uses pre-trained LLMs with no task-specific examples. 
 Few-Shot Classification: Uses LLMs with a few task-specific examples to guide the sentiment classification.
 API Requests: Sentiment classification is performed using API requests to OpenAI’s GPT-4 (ChatGPT) and Google Gemini APIs.
 
